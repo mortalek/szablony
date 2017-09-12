@@ -1,0 +1,10 @@
+
+.navbar-brand img {
+    width:30%;
+    height:100%;
+}
+
+.navbar-default {
+    padding-top:10px;
+    padding-bottom:10px;
+}
