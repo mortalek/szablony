@@ -27,7 +27,6 @@ body * {
         background-repeat: no-repeat;
       }
     .section .content {
-        height: 950px;
         background: #fff;
         overflow: hidden;
         width: 100%;
@@ -77,20 +76,22 @@ body * {
         font-family: "Work Sans", sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase;
+        padding: 0 30px;
         position: relative;
         z-index: 100;
-        padding: 0 30px;
         border: none;
         outline: none;
         cursor: pointer;
         padding: 1rem;
-        position: absolute;
-        top: 25rem;
+        top: 23rem;
         left: 1rem;
         -moz-transition: color 0.4s ease;
         -o-transition: color 0.4s ease;
         -webkit-transition: color 0.4s ease;
         transition: color 0.4s ease;
+    }
+    .btn-black {
+        padding: 0 30px;
     }
     div {
         margin: 0;
@@ -105,3 +106,97 @@ body * {
         padding: 0 !important;
         margin: 0 !important;
      }
+     .img-liquid-section {
+        overflow: hidden;
+        width: 100%;
+    }
+    @media screen and (min-width: 768px) {
+    .sm-visible {
+        visibility: visible;
+        display: block;
+    }
+}
+    @media screen and (min-width: 768px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+     .img-liquid-section .img-section {
+        position: relative;
+        z-index: 10;
+    }
+.img-liquid-section .img-section .img-hld {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+body img {
+    max-width: 100%;
+}
+@media screen and (max-width: 991px) {
+.content-pic-hld {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+}
+@media screen and (max-width: 1370px) {
+.content-pic-hld.right {
+    padding-right: 15px;
+    padding-left: 110px;
+}
+}
+.content-pic-hld {
+    padding: 90px 110px 95px;
+}
+.content-pic-hld
+.img-liquid-section p * {
+    margin: 0!important;
+}
+.section.content h3 {
+ margin: 20px 0;
+}
+.room-options li, .section.content h3, .secTextIn h3, .main-subtitle {
+    color: #A3915B;
+    margin: 0 0 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+section.rooms-section h3 strong, h4.main-title {
+    font-size: 24px;
+    line-height: 26px;
+}
+}
+.section-gallery h4, .secTextIn h2, .main-title {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #585757;
+    letter-spacing: 2px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    padding-left: 15px;
+}
+body p {
+    font-size: 15px;
+    line-height: 175%;
+    font-weight: 400;
+    color: #525260;
+}
+p {
+    margin-bottom: 25px;
+}
+.btn.btn-black {
+    background: #C4B37F;
+    color: #fff;
+}
+.more {
+    top: 1rem;
+    left: 5rem;
+}
