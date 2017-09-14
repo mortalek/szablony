@@ -15,11 +15,10 @@ body * {
     }
     h3 {
         display: inline-block;
-        padding: 10px;
+        padding: 15px;
         background: #B9121B;
         color: #fff;
         border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
 
       } 
       .full-screen {
@@ -70,7 +69,7 @@ body * {
         padding: 1rem;
         position: absolute;
         top: 10rem;
-        left: 1rem;
+        left: 11rem;
     }
     .btn {
         height: 44px;
@@ -88,11 +87,13 @@ body * {
         cursor: pointer;
         padding: 1rem;
         top: 23rem;
-        left: 1rem;
+        left: 11rem;
+        border-radius: 0;
         -moz-transition: color 0.4s ease;
         -o-transition: color 0.4s ease;
         -webkit-transition: color 0.4s ease;
         transition: color 0.4s ease;
+
     }
     .btn-black {
         padding: 0 30px;
@@ -154,8 +155,9 @@ body img {
 }
 }
 .content-pic-hld {
-    padding: 90px 110px 95px;
-}
+    padding: 90px 120px 95px;
+    padding-bottom: 110px;
+    }
 .content-pic-hld
 .img-liquid-section p * {
     margin: 0!important;
@@ -164,7 +166,6 @@ body img {
  margin: 20px 0;
 }
 .room-options li, .section.content h3, .secTextIn h3, .main-subtitle {
-    color: #A3915B;
     margin: 0 0 10px;
     font-size: 16px;
     letter-spacing: 2px;
@@ -205,6 +206,7 @@ p {
 .more {
     top: 1rem;
     left: 50%;
+    
 }
 .mor {
     top: 1rem;
@@ -239,6 +241,7 @@ p {
 }
 .secTextIn {
     position: relative;
+    
 }
 .secTextIn h2 {
     font-size: 40px;
@@ -246,5 +249,27 @@ p {
 @media screen and (max-width: 1400px) {
 .container {
     max-width: 1130px;
+    
 }
+}
+.blog-span {
+    width: auto;
+    padding: 0 20px;
+    float: right;
+    letter-spacing: 0.15em;
+}
+.blog-span, #newsletter_email {
+    background: #3E3E3E;
+    color: #EEE;
+    margin: 0;
+    width: 260px;
+    padding: 0;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 0 none;
+}
+.add {
+    top: -0.1rem;
+    left: 0.1%;
 }
