@@ -1,7 +1,7 @@
 body * {
     font-family: "Work Sans", sans-serif;
     box-sizing: border-box;
-    }
+    }  
     .navbar-brand {
         width: 300px;
         padding: 0;
@@ -41,7 +41,6 @@ body * {
         height: 50%;
         width: 100%;
         position: relative;
-
     }
     .offers .img-hld:before {
         content: "";
@@ -78,6 +77,10 @@ body * {
         position: absolute;
         top: 10rem;
         left: 11rem;
+    }
+    .pow {
+        margin-top: 25px;
+        margin-left: -15px;
     }
     .btn {
         height: 44px;

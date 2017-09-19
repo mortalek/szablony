@@ -1,0 +1,93 @@
+.kac-sm-panel {
+    position: fixed;
+    top: 200px;
+    right: -102px;
+    text-align: left;
+    z-index: 9999;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+div {
+    display: block;
+}
+.kac-sm-panel ul {
+    list-style-type: none;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.kac-sm-panel li {
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    margin: 3px 0px;
+    position: relative;
+    right: 0px;
+    box-sizing: initial;
+    display: block;
+}
+.kac-sm-gplus {
+    background: none repeat scroll 0% 0% #DC4A3D;
+}
+.kac-sm-block {
+    transition: right 0.5s ease-out 0s;
+}
+.kac-sm-panel a {
+    text-decoration: none;
+}
+a {
+    color: #038cc8;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.kac-sm-panel span {
+    width: 80px;
+    display: inline;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-bottom: 13px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.kac-sm-twitter {
+    background: none repeat scroll 0% 0% #16B9ED;
+}
+.kac-sm-youtube {
+    background: none repeat scroll 0% 0% #E32C26;
+}
+.kac-sm-fb {
+    background: none repeat scroll 0% 0% #295C9E;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.kac-sm-block:hover {
+    right: 90px;
+}
