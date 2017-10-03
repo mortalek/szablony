@@ -12,6 +12,13 @@ body * {
     .navbar-default {
         padding-top:10px;
         padding-bottom:10px;
+        transition: all 1s ease;
+    }
+    .navbar-default .navbar-nav li a {
+        transition: all 1s ease;
+    }
+    .navbar-default .navbar-nav li a:hover{
+        color: #C4B37F;
     }
     h3 {
         display: inline-block;
@@ -319,6 +326,27 @@ p {
     height: 361px;
     border-bottom: 1px solid #202020;
     padding-left: 50px;
+}
+.go-top {
+    font-family:Tahoma, Arial, Geneva, sans-serif;
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: #C4B37F;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    border: 1px solid rgba(0,0,0,0.7);
+    z-index: 999;
+}
+
+.go-top:hover {
+    background-color:rgba(0,0,0,0.7);
+    text-decoration:none;
+    color: white;
+    border: 1px solid #C4B37F;
 }
 @media screen and (min-width: 768px) {
 
