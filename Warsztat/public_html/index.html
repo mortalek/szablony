@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>USŁUGI MOTORYZACYJNE MIRANO MIROSŁAWA NOWICKA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/lightbox.css" rel="stylesheet" >
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css' media="screen">
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" >
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" >
+        <script src="js/Modernizr.js"></script>
+        <script src="js/respond.min.js"></script>
+        <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/3.2.1.jquery.min"><\/script>');</script>
+        <script src="js/prefixfree.js"></script>
+        <script src="lightbox2-master/dist/js/lightbox.js"></script>
+        
+        <script>
+$(function() {
+    $('#slides').slidesjs({
+        height: 235,
+        navigation: false,
+        pagination: false,
+        effect: {
+            fade: {
+                speed: 400}}, callback:
+                {
+                    start: function(number)
+                    {
+                    $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+                    },
+                    complete: function(number)
+                    {
+                    $("#slider_content" + number).delay(500).fadeIn(1000);
+                    }
+                },
+            play:
+            {
+                active: false,
+                auto: true,
+                interval: 6000,
+                pauseOnHover: false
+            }
+    });
+});
+</script>
+    </head>
+    <body>
+        <header>
+                <h1>MIRANO</h1>
+                <p id="emgy">
+                        (75) 753-32-84<br>
+                        mirano@onet.eu
+                        
+                </p>
+                <p>Mechanika pojazdowa w Jeleniej Górze</p>
+                <nav>
+                    <ul>
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><a href="#offer">Oferta</a></li>
+                        <li><a href="#four_columns">Warsztat</a></li>
+                        <li><a href="#text_columns">O Nas</a></li>
+                        <li><a href="#copyright">Kontakt</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <section class="container">
+                <h2 class="hidden">Lorem Ipsum</h2>
+                <article id="slider_content1">
+                    <h3>Myjnia bezdotykowa</h3>
+                    <p>Kompleksowość naszej oferty obejmuje także nowoczesną myjnię bezdotykową dostosowaną do obsługi zarówno samochodów osobowych, jak i dostawczych.</p>
+                    <a class="button" target="_blank" href="https://www.youtube.com/watch?v=ORnMuapvrCM">Sprawdź!</a>
+                </article>
+                <article id="slider_content2">
+                    <h3>Naprawy powypadkowe</h3>
+                    <p>Nasza firma wychodzi naprzeciw oczekiwaniom kierowców, których samochód został uszkodzony w wypadku lub kolizji. Zajmujemy się różnego rodzaju bezgotówkowymi powypadkowymi naprawami aut.</p>
+                    <a class="button" target="_blank" href="https://www.youtube.com/watch?v=ORnMuapvrCM">Sprawdź!</a>
+                </article>
+                <article id="slider_content3">
+                    <h3>Wynajem busa</h3>
+                    <p>Nasza oferta umożliwia Państwu wynajem auta marki Mercedes Sprinter, który jest przystosowany do przewożenia towarów do 3,5 tony (masa całkowita/).</p>
+                    <a class="button" target="_blank" href="https://www.youtube.com/watch?v=ORnMuapvrCM">Sprawdź!</a>
+                </article>
+                <div id="slides">
+                    <img src="lightbox2-master/dist/images/slide1.jpg" alt="Some alt text">
+                    <img src="lightbox2-master/dist/images/slide2.jpg" alt="Some alt text">
+                    <img src="lightbox2-master/dist/images/slide3.jpg" alt="Some alt text">
+                </div>
+        </section>
+        <section id="spacer">
+                <h2 class="hidden">Dolor sit amet</h2>
+                <p>Czegoś nie możesz znaleźć? Wpisz frazę obok w wyszukiwarce!</p>
+                <div class="search">
+                    <form action="#">
+                        <input type="text" name="sitesearch" value="Wpisz słowo..."/>
+                        <input type="submit" name="start_search" class="button" value="Szukaj"/>
+                    </form>
+                </div>
+        </section>
+        <section id="offer">
+            <article>
+                    <h3>Oferta</h3>
+                    <img src="lightbox2-master/dist/images/car.png" alt="alt text"/>
+                    <p>Oferujemy Państwu kompleksową i profesjonalną mechanikę pojazdową, w tym naprawy związane z:
+                    </p>       
+                        <ol>
+                            <li>układem hamulcowym (diagnostyka hamulców, wymiana płynu hamulcowego, wymiana klocków),</li>
+                            <li>zawieszeniem (amortyzatory, whacze, naprawy układu kierowniczego),</li>
+                            <li>elektromechaniką (elektryka samochodowa, naprawy układu wydechowego, chłodzenia).</li>
+                        </ol>
+                    <img src="lightbox2-master/dist/images/service.png" alt="alt text"/>
+                    <p>Ponadto w naszej ofercie znajdą Państwo:
+                    </p>
+                        <ol>
+                            <li>naprawy powypadkowe,</li>
+                            <li>blacharstwo,</li>
+                            <li>lakiernictwo,</li>
+                            <li>myjnię bezdotykową,</li>
+                            <li>wynajem busa.</li>
+                        </ol>
+                    
+            </article>
+        </section>
+        <section id="boxcontent">
+            <h2 class="hidden">Adipiscing</h2>
+            <article>
+                <img src="lightbox2-master/dist/images/repair.png" alt="alt text"/>
+                <h3>Blacharstwo</h3>
+                <p>
+                   Istotnym elementem oferty naszego warsztatu są kompleksowe usługi blacharskie. Wykorzystujemy nowoczesne narzędzia, gwarantujące precyzyjną obróbkę metalu.
+                </p>
+                <p>   
+                    Stosujemy najnowsze techniki spawania, zgrzewania oraz lutowania, aby nie doprowadzić do uszkodzenia blachy. Używamy profesjonalnych rozpieraczy i ram rozciągających.
+                </p>
+            </article>
+            <article>
+                <img src="lightbox2-master/dist/images/painting.png" alt="alt text"/>
+                <h3>Lakiernictwo</h3>
+                <p>
+                   W ramach prac lakierniczych wykonujemy przede wszystkim wstępne mycie naprawianych elementów, szlifowanie odnawianej powierzchni, a jeśli zachodzi taka konieczność, szpachlowanie i wypełnianie ubytków. Na koniec nakładamy odpowiednią ilość warstw lakieru bazowego.
+                </p>
+                <p>
+                    Oferujemy też usługę odnawiania powłoki lakierniczej. Używamy profesjonalnych rozpieraczy i ram rozciągających. Stosujemy naprzemiennie zgrzewanie, spawanie i lutowanie co pozwala kształtować powierzchnię karoserii zgodnie z oczekiwaniami Klienta.
+                </p>
+            </article>
+            <article>
+                <img src="lightbox2-master/dist/images/mechanic.png" alt="alt text"/>
+                <h3>Mechanika pojazdowa</h3>
+                <p>
+                    Zajmujemy się mechaniką pojazdową samochodów osobowych, ciężarowych oraz dostawczych. Obsługujemy wszystkie najpopularniejsze marki poruszające się po drogach Unii Europejskiej.
+                </p>
+                <p>
+                    Od lat prowadzimy profesjonalny warsztat samochodowy. Dysponujemy nowoczesnym i dobrze wyposażonym warsztatem. Nasi mechanicy samochodowi przeprowadzają badania komputerowe.
+                </p>
+            </article>
+            <article>
+                <img src="lightbox2-master/dist/images/repair.png" alt="alt text"/>
+                <h3>Naprawy powypadkowe</h3>
+                <p>
+                    Nasza firma wychodzi naprzeciw oczekiwaniom kierowców, których samochód został uszkodzony w wypadku lub kolizji. Zajmujemy się różnego rodzaju bezgotówkowymi powypadkowymi naprawami aut.<br>
+                    <span style="line-height: 300%;"><strong>UWAGA!</strong> Istnieje możliwość otrzymania samochodu zastępczego na czas wykonywania naprawy auta.</span><br>
+                    Oferujemy Państwu szeroki wybór części zapasowych do samochodów. Montujemy zarówno części oryginalne, jak i ich tańsze zamienniki renomowanych producentów krajowych oraz zagranicznych. Wszystkie elementy zapasowe posiadają niezbędne atesty dopuszczające do bezpiecznego użytkowania.
+                </p>
+                <p>
+                    Zapraszamy Państwa do odwiedzenia naszego warsztatu w celu uzyskania szerszych informacji na temat na praw powypadkowych. Nasi pracownicy udzielą Państwu wyczerpujących informacji o oferowanych usługach naprawy aut.
+                </p>
+            </article>
+            <article>
+                <img src="lightbox2-master/dist/images/bus.png" alt="alt text"/>
+                <h3>Wynajem busa</h3>
+                <p>
+                    Nasza oferta umożliwia Państwu wynajem auta marki Mercedes Sprinter, który jest przystosowany do przewożenia towarów do 3,5 tony (masa całkowita/). Bus wyposażony jest w 3-osobową kabinę, a długość jego przestrzeni ładunkowej wynosi 4,30m. na praw powypadkowych.
+                </p>
+            </article>
+            <article>
+                <img src="lightbox2-master/dist/images/wash.png" alt="alt text"/>
+                <h3>Myjnia bezdotykowa</h3>
+                <p>
+                    Kompleksowość naszej oferty obejmuje także nowoczesną myjnię bezdotykową dostosowaną do obsługi zarówno samochodów osobowych, jak i dostawczych.
+                </p>
+                <p>
+                    Wykorzystujemy natryski aktywnej piany, skutecznie usuwającej wszelkie zabrudzenia osiadające na karoserii samochodu. Posiadamy 2 myjnie ręczne, w których równolegle można umyć samochód osobowy i bus.
+                </p>
+                <p>
+                    Następnie strumień czystej wody, pod ciśnieniem zmywa pianę. W dalszej kolejności nasi pracownicy myją koła i dokładnie czyszczą samochód w środku. W efekcie samochód lśni czystością i odzyskuje swój dawny blask.Pierzemy także tapicerkę samochodową, wykładziny i dywany.
+                </p>
+            </article>
+            <br class="clear"/>
+        </section>
+        <section id="four_columns">
+            <h2>
+            Warsztat
+            </h2>
+            <article class="img-item">
+                <h3 class="hidden">Dolor sit amet</h3>
+                <figure>
+                    <a href="lightbox2-master/dist/images/5.jpg" data-lightbox="lightbox" title="Some Title">
+                    <span class="thumb-screen"></span>
+                    <img src="lightbox2-master/dist/images/55.jpg" alt="Some alt text"/>
+                    </a>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name
+                        </strong>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+                <h3 class="hidden">Sit Amet</h3>
+                <figure>
+                    <a href="lightbox2-master\dist\images\4.jpg" data-lightbox="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>                       
+                        <img src="lightbox2-master\dist\images\44.jpg" alt="Some alt text"/>
+                    </a>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some Name
+                        </strong>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+                <h3 class="hidden">Dolor Sit</h3>
+                <figure>
+                    <a href="lightbox2-master\dist\images\3.jpg" data-lightbox="lightbox" title="Some Title">
+                        <span class="thumb-screen"></span>
+                        <img src="lightbox2-master\dist\images\33.jpg" alt="Some alt text"/>
+                    </a>
+            <figcaption>
+                <strong>
+                    Photo by: Some Name
+                </strong>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in</figcaption>
+                </figure>
+            </article>
+            <br class="clear"/>
+        </section>
+        <section id="text_columns">
+            <h2 class="hidden">Blindtext</h2>
+            <article class="column1">
+            <h3>
+                O Nas
+            </h3>
+            <p>Firma MIRANO od 2005 roku jest solidnym partnerem na rynku usług motoryzacyjnych. Oferujemy kompleksowy serwis samochodowy, w tym naprawę aut powypadkowych. </p>
+            <p>Całość świadczonych przez nas usług cechuje wysoka jakość, profesjonalizm oraz komplementarność. Nasi pracownicy to fachowcy z bogatym doświadczeniem oraz pasja, która pozwala na wykonywanie usług na najwyższym poziomie!</p>
+            </article>
+            <section class="column2">
+                <h3 class="hidden">Lorem Impsum</h3>
+                <article class="row">
+                    <h4 class="hidden">Ipsum</h4>
+                    <figure class="item">
+                    <img src="lightbox2-master\dist\images\icon5.png" width="80" class="clock" alt="Some alt text"/>
+                    <figcaption class="caption">Pamiętajmy, że<br>
+                        "Czas to pieniądz, a pieniądz to więcej niż czas."</figcaption>
+                    </figure>
+                </article>
+            </section>
+        </section>
+        <footer>
+            <h2 class="hidden">Our footer</h2>
+             <div class="map">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyC7rRaxsaa89VFfiV8UMOKULNj0lBUlbNc'></script><div style='overflow:hidden;height:400px;width:620px;'><div id='gmap_canvas' style='height:320px;width:620px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/pl'>http://Maps-Generator.com/pl</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=3f4a4551a2e929a4c5daa1b99d3709af4ebe8e9e'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(50.9024809,15.790332000000035),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.9024809,15.790332000000035)});infowindow = new google.maps.InfoWindow({content:'<strong>Mirano. Usługi Motoryzacyjne. Nowicka M.</strong><br>ul. Chłopska 11 (wjazd od ul. W. Pola)<br>58-500 Jelenia Góra<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+            <section class="wrapper">
+                <h3 class="hidden">Footer content</h3>
+                <article class="column">
+                    <h4>USŁUGI MOTORYZACYJNE MIRANO MIROSŁAWA NOWICKA</h4>
+                    ul. Chłopska 11 (wjazd od ul. W. Pola)<br>
+                        58-500 Jelenia Góra<br>
+                        Tel.: (75) 753-32-84<br>
+                        Fax: (75) 642-14-11<br>
+                        Tel. kom.: 500-124-188; 500-124-191<br>
+                        E-mail: mirano@onet.eu<br>
+                        GODZINY OTWARCIA:<br>
+                        pon. – sob.<br>
+                        8.30-18.00<br>
+                </article>
+                      
+                    <section id="copyright">
+                <h3 class="hidden">Copyright notice</h3>
+                <div class="wrapper">
+                    <div class="social">
+                        <a id="tumblr"><i class="fa fa-tumblr fa-2x fa-fw" onclick="window.open ('http://www.google.com', '');" aria-hidden="true"></i></a>
+                        <a id="google"><i class="fa fa-google-plus fa-2x fa-fw" onclick="window.open ('http://www.google.com', '');" aria-hidden="true"></i></a>
+                        <a id="youtube"><i class="fa fa-youtube fa-2x fa-fw" onclick="window.open ('http://www.google.com', '');" aria-hidden="true" ></i></a>
+                    </div>
+                &copy; Copyright 2017 by <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LOL</a>. All Rights Reserved.</div>
+            </section>
+            </section>
+        </footer>
+        <script src="js/jquery.slides.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+    </body>
+</html>
